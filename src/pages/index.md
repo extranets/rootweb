@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
-title: ExtraNets coming soon
-image: /img/home-jumbotron.jpg
+title: ExtraNets coming soon 
+image: /img/Perspectives_Kreisler_top2.jpg
 heading: Easy access increased Power
 subheading: Where you find what is interesting for you
 mainpitch:

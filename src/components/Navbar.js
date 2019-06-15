@@ -60,11 +60,11 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/about">
-                Project
-              </Link>
+              <a  className="navbar-item" target="_blank" href=" https://christianiabpos.sharepoint.com/sites/1000126-communication/Shared%20Documents/Forms/AllItems.aspx">
+                Project Documents
+              </a>
               <a  className="navbar-item" target="_blank" href="https://extranets.sharepoint.com">
-                Pilot
+                Pilot Site
               </a>
               {/* <Link className="navbar-item" to="/blog">
                 Blog
