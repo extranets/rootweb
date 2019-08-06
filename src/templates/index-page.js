@@ -5,6 +5,9 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
+import ExtraNets from '@haiku/nielsgregers-extranets/react';
+import ExtranetsSplashScreen from '@haiku/nielsgregers-extranetssplashscreen/react';
+
 
 export const IndexPageTemplate = ({
   image,
@@ -18,7 +21,7 @@ export const IndexPageTemplate = ({
   <div>
     <div
       className="full-width-image margin-top-0"
-      style={{
+      style={{display:"none",
         backgroundImage: `url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
@@ -64,6 +67,11 @@ export const IndexPageTemplate = ({
         </h3>
       </div>
     </div>
+    <div style={{backgroundColor:"#dddddd",padding:"20px"}}>
+    <div style={{marginLeft:"auto",marginRight:"auto",width:"600px",xbackgroundColor:"red"}}>
+    <ExtranetsSplashScreen loop={true} />
+    </div></div>
+
     <section className="section section--gradient">
       <div className="container">
         <div className="section">
@@ -78,15 +86,15 @@ export const IndexPageTemplate = ({
                     <h3 className="subtitle">{mainpitch.description}</h3>
                   </div>
                 </div>
-                {/* <div className="columns">
+                 <div className="columns">
                   <div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-2">
                       {heading}
                     </h3>
                     <p>{description}</p>
                   </div>
-                </div> */}
-                {/* <Features gridItems={intro.blurbs} />
+                </div> 
+                 <Features gridItems={intro.blurbs} />
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/products">
@@ -94,6 +102,7 @@ export const IndexPageTemplate = ({
                     </Link>
                   </div>
                 </div>
+                
                 <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">
                     Latest stories
@@ -104,7 +113,7 @@ export const IndexPageTemplate = ({
                       Read more
                     </Link>
                   </div>
-                </div> */}
+                </div> 
               </div>
             </div>
           </div>
