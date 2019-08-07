@@ -8,6 +8,7 @@ import twitter from '../img/social/twitter.svg'
 import vimeo from '../img/social/vimeo.svg'
 import {MegaMenu} from "@intra365/navigation-components"
 import "@intra365/navigation-components/lib/toolbar.css"
+import extranets from "extranets-elsa-web-module/es"
 const navigation = {
   "tree": [
     {
@@ -295,6 +296,15 @@ const navigation = {
   }
 }
 const Footer = class extends React.Component {
+  
+  componentDidMount() {
+    
+    extranets.load("netsintranets")
+   //extranets.default.load()
+
+    
+  }
+  
   render() {
   
     return (
@@ -312,6 +322,7 @@ const Footer = class extends React.Component {
            
           </div> 
         </div>
+        
       </footer>
     )
   }

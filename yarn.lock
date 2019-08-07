@@ -1102,10 +1102,45 @@
   dependencies:
     "@haiku/core" "^4.5.1"
 
+"@haiku/nielsgregers-extranets@^0.0.4":
+  version "0.0.4"
+  resolved "https://reservoir.haiku.ai:8910/@haiku%2fnielsgregers-extranets/-/nielsgregers-extranets-0.0.4.tgz#ccc8378f4fbfed8bc494147c943bc062ba5e306d"
+  integrity sha512-ltXDeL0x0fhStTJorFjUN/tnkZEasMLu7dO6tDx2bSsI5kny9vDSMi+hXYs3IN6gYWnf4iN5Xn9oxxsEdHN+UQ==
+  dependencies:
+    "@haiku/core" "^4.5.1"
+
+"@haiku/nielsgregers-extranetsnavigation@^0.0.3":
+  version "0.0.3"
+  resolved "https://reservoir.haiku.ai:8910/@haiku%2fnielsgregers-extranetsnavigation/-/nielsgregers-extranetsnavigation-0.0.3.tgz#3f4ada1a7e8dae5e7b624584150a816cc6aec632"
+  integrity sha512-6CNRR7uYL5A8iEmCA6GgK1Z4Am8OXnGOqJiae/PpbWFabCGZfD5H2CYjoVH/yvefxq1v8mt0TT8Rv9fB0wikKw==
+  dependencies:
+    "@haiku/core" "^4.5.1"
+
 "@haiku/nielsgregers-extranetssplashscreen@^0.0.4":
   version "0.0.4"
   resolved "https://reservoir.haiku.ai:8910/@haiku%2fnielsgregers-extranetssplashscreen/-/nielsgregers-extranetssplashscreen-0.0.4.tgz#f88c5064e92955d7d132ec969cef8d4bdba80ba5"
   integrity sha512-NmBpOZlUvXvTaTfkpGbvD8+u10ElQ05YWV4h1cp5Cb2H7/kSW84buRq3M6qgOoGc4IgvPDfWhefMmCXRjaxGWA==
+  dependencies:
+    "@haiku/core" "^4.5.1"
+
+"@haiku/nielsgregers-extranetssplashscreen@^0.0.5":
+  version "0.0.5"
+  resolved "https://reservoir.haiku.ai:8910/@haiku%2fnielsgregers-extranetssplashscreen/-/nielsgregers-extranetssplashscreen-0.0.5.tgz#c5907f3a3790d2835fa9cf58a098cc0da25f7f1e"
+  integrity sha512-OBKDz9sYHuuK9JE+9tkik7/2OQ31XVbfPmIMI46YKLw9dv7vV7N1SNxaCwDlpWXnD5mizBHW3V1oIbaPF9AX7w==
+  dependencies:
+    "@haiku/core" "^4.5.1"
+
+"@haiku/nielsgregers-extranetsuniversalnavigator@^0.0.6":
+  version "0.0.6"
+  resolved "https://reservoir.haiku.ai:8910/@haiku%2fnielsgregers-extranetsuniversalnavigator/-/nielsgregers-extranetsuniversalnavigator-0.0.6.tgz#965457e14e2a809a6d0a6328c3ae9a67dccc96ef"
+  integrity sha512-9W9jZ9eLCib3GKFNJqjVCnVkRP0uccKexq144LNIvEhKnWAtGgp5K4IBw3drX3WsxGfLoi8m6HeI15Up5qU5Iw==
+  dependencies:
+    "@haiku/core" "^4.5.1"
+
+"@haiku/nielsgregers-extranetsuniversalnavigatorfold@^0.0.7":
+  version "0.0.7"
+  resolved "https://reservoir.haiku.ai:8910/@haiku%2fnielsgregers-extranetsuniversalnavigatorfold/-/nielsgregers-extranetsuniversalnavigatorfold-0.0.7.tgz#85b839d72db7c4e348eea74c165e1c2110518692"
+  integrity sha512-bed/5VHmkIyYKa49MwR7i6bFyhDwUkerXRVeKai7PGvXrbBH1k+SQe5MyV+sXApPQDlwbVwAkrRxRqi9nHwRMA==
   dependencies:
     "@haiku/core" "^4.5.1"
 
@@ -2080,6 +2115,11 @@ amdefine@>=0.0.4:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/amdefine/-/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
   integrity sha1-SlKCrBZHKek2Gbz9OtFR+BfOkfU=
+
+animejs@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/animejs/-/animejs-3.1.0.tgz#748a90fc1d4bef3efed64508af9a6a82babf5c47"
+  integrity sha512-BjnCroPPQPEAngT0M89pz9TBcOGgOFLnVoq3+jV2upl4rn60k57/AXvESTnuILsNgOEjGuhMEOMp7IlQzk40kA==
 
 ansi-align@^2.0.0:
   version "2.0.0"
@@ -5596,6 +5636,18 @@ extglob@^2.0.4:
     regex-not "^1.0.0"
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
+
+extranets-elsa-web-module@^0.0.12:
+  version "0.0.12"
+  resolved "https://registry.yarnpkg.com/extranets-elsa-web-module/-/extranets-elsa-web-module-0.0.12.tgz#bbad0751232ddce562aca11dd47669aabb4db055"
+  integrity sha512-fwKnurDBaIGQ/Wl6pdmMPqTYksbvQch0WZhWgo89w+T9aXGO3HqbZU1XKZbTVS3SLPjCTwoSDjb4qvC89eUREA==
+  dependencies:
+    "@haiku/nielsgregers-extranets" "^0.0.4"
+    "@haiku/nielsgregers-extranetsnavigation" "^0.0.3"
+    "@haiku/nielsgregers-extranetssplashscreen" "^0.0.4"
+    "@haiku/nielsgregers-extranetsuniversalnavigator" "^0.0.6"
+    "@haiku/nielsgregers-extranetsuniversalnavigatorfold" "^0.0.7"
+    animejs "^3.1.0"
 
 extsprintf@1.3.0:
   version "1.3.0"
