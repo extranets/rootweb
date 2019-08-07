@@ -17,6 +17,22 @@ You can embedded Extranets in any web site in Nets, internally or externaly
 Copy the entire contents of the text box.
 
 ```javascript
- <script src="https://unpkg.com/extranets-elsa-web-module/umd/extranets-elsa-web-module.js"></script>
+
+ <!-- Extranets -->
+    <script>
+(function(i,s,o,g,r,a,m){i['extranetsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://unpkg.com/extranets-elsa-web-module/umd/extranets-elsa-web-module.js"','extranets');
+extranets("init","netsintranets");
+    </script>
+
+<!-- End Extranets -->
 ```
-Paste it immediately after the </body> tag on each page of your site. 
+Paste it immediately before the </body> tag on each page of your site. 
+
+
+## Supported commands
+
+### init
+- tenantname 
