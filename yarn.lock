@@ -5637,10 +5637,10 @@ extglob@^2.0.4:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
-extranets-elsa-web-module@^0.0.13:
-  version "0.0.13"
-  resolved "https://registry.yarnpkg.com/extranets-elsa-web-module/-/extranets-elsa-web-module-0.0.13.tgz#c7fc7af29bfe1ff1a45d4e9dd45420723d494e00"
-  integrity sha512-v9NNjAUD1tp4PDxLU5Zdz8XnvCqbMykhsAQ2dQJ7jgogU8PZlJJ2dJZjBZE7r/PbRCGWm+WbEhvojdJof+3C5g==
+extranets-elsa-web-module@^0.0.15:
+  version "0.0.15"
+  resolved "https://registry.yarnpkg.com/extranets-elsa-web-module/-/extranets-elsa-web-module-0.0.15.tgz#d24cfbf2cb532b6627529138302c9660ff93361a"
+  integrity sha512-wtwaPx+Y0s3UaNpaLoQf0wE10hmZoNk4PSz9PXSMHm16z2JETk6t0/fM559/vlGWDn6w5zVZ2O2LycRltJ/MZQ==
   dependencies:
     "@haiku/nielsgregers-extranets" "^0.0.4"
     "@haiku/nielsgregers-extranetsnavigation" "^0.0.3"
